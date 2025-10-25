@@ -41,7 +41,7 @@ Implements security best practices to protect data and systems from vulnerabilit
 
 Bridges the gap between business needs and technical implementation. Gathers requirements, defines workflows, and helps the team align the final product with user expectations.
 
-**🧩 Technology Stack**
+#🧩 Technology Stack
 
 **1. Django**
 
