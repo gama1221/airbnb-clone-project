@@ -250,3 +250,21 @@ This project implements robust security measures to protect user data and ensure
 **Input Validation & Sanitization** – Ensures all incoming requests are properly validated to prevent injection attacks and other vulnerabilities.
 
 Implementing these measures is crucial for safeguarding user information, securing payments, and maintaining trust in the platform.
+
+# ⚙️ CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) automate the process of building, testing, and deploying the application. This ensures faster, more reliable releases and reduces the risk of human error.
+
+**Continuous Integration (CI)** – Automatically runs tests and builds the application on every code change to ensure quality and detect errors early.
+
+**Continuous Deployment (CD)** – Automates the deployment of code to production or staging environments, ensuring rapid and consistent updates.
+
+## Tools Used:
+
+  **GitHub Actions** – Automates workflows for building, testing, and deploying code.
+  
+  **Docker** – Packages the application and dependencies for consistent environments across development and production.
+  
+  **Optional**: Kubernetes, Jenkins, or other CI/CD platforms can also be integrated for scaling deployments.
+
+Implementing CI/CD ensures efficient development cycles, stable releases, and high-quality code delivery.
