@@ -234,3 +234,19 @@ Allows users to search for properties based on location, price, dates, and ameni
 **7. Notifications**
 
 Sends email or in-app notifications for booking confirmations, cancellations, and updates. Keeps users informed about important events and actions. This feature improves communication and engagement within the platform.
+
+# 🔒 API Security
+
+This project implements robust security measures to protect user data and ensure safe interactions with the backend.
+
+**Authentication** – Verifies user identity using secure login methods (e.g., JWT or OAuth2). Protects sensitive data and ensures only legitimate users can access the system.
+
+**Authorization** – Controls access to resources based on user roles (guest, host, admin). Prevents unauthorized actions and enforces proper permissions.
+
+**Rate Limiting** – Limits the number of API requests per user or IP to prevent abuse and potential DDoS attacks.
+
+**Data Encryption** – Encrypts sensitive data in transit and at rest to maintain confidentiality, especially for user information and payment details.
+
+**Input Validation & Sanitization** – Ensures all incoming requests are properly validated to prevent injection attacks and other vulnerabilities.
+
+Implementing these measures is crucial for safeguarding user information, securing payments, and maintaining trust in the platform.
