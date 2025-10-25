@@ -119,86 +119,86 @@ Key Fields:
 
 **Relationships:**
 
-A property belongs to one user (owner).
-
-A property can have many bookings and reviews.
+  - A property belongs to one user (owner).
+  
+  - A property can have many bookings and reviews.
 
 3. Bookings
 
 Tracks reservations made by users for properties.
 
 Key Fields:
+  
+  - booking_id – Unique identifier for each booking.
+  
+  - user_id – References the guest who made the booking.
+  
+  - property_id – References the booked property.
+  
+  - start_date – Check-in date.
+  
+  - end_date – Check-out date.
 
-booking_id – Unique identifier for each booking.
+**Relationships:**
 
-user_id – References the guest who made the booking.
+  - A booking belongs to one user (guest).
+  
+  - A booking belongs to one property.
+  
+  - A booking can have one payment.
 
-property_id – References the booked property.
-
-start_date – Check-in date.
-
-end_date – Check-out date.
-
-Relationships:
-
-A booking belongs to one user (guest).
-
-A booking belongs to one property.
-
-A booking can have one payment.
-
-4. Reviews
+**4. Reviews**
 
 Contains user feedback about properties they’ve stayed in.
 
 Key Fields:
 
-review_id – Unique identifier for each review.
+  - review_id – Unique identifier for each review.
+  
+  - user_id – References the author of the review.
+  
+  - property_id – References the reviewed property.
+  
+  - rating – Numerical rating (e.g., 1–5 stars).
+  
+  - comment – Text feedback from the user.
 
-user_id – References the author of the review.
+**Relationships:**
 
-property_id – References the reviewed property.
+  - A review belongs to one user.
+  
+  - A review belongs to one property.
 
-rating – Numerical rating (e.g., 1–5 stars).
-
-comment – Text feedback from the user.
-
-Relationships:
-
-A review belongs to one user.
-
-A review belongs to one property.
-
-5. Payments
+**5. Payments**
 
 Manages transactions for property bookings.
 
 Key Fields:
 
-payment_id – Unique identifier for each payment.
+  - payment_id – Unique identifier for each payment.
+  
+  - booking_id – References the booking the payment belongs to.
+  
+  - amount – Total payment amount.
+  
+  - payment_date – Date when the payment was processed.
+  
+  - status – Payment status (e.g., completed, pending, failed).
 
-booking_id – References the booking the payment belongs to.
+**Relationships:**
 
-amount – Total payment amount.
-
-payment_date – Date when the payment was processed.
-
-status – Payment status (e.g., completed, pending, failed).
-
-Relationships:
-
-A payment belongs to one booking.
-
-A booking has one payment.
-
-Entity Relationship Summary
-
-User → Property: One-to-Many
-
-User → Booking: One-to-Many
-
-Property → Booking: One-to-Many
-
-Property → Review: One-to-Many
-
-Booking → Payment: One-to-One
+  - A payment belongs to one booking.
+  
+  - A booking has one payment.
+  
+  - Entity Relationship Summary
+  
+  - User → Property: One-to-Many
+  
+  - User → Booking: One-to-Many
+  
+  - Property → Booking: One-to-Many
+  
+  - Property → Review: One-to-Many
+  
+  - Booking → Payment: One-to-One
