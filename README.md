@@ -202,3 +202,35 @@ Key Fields:
   - Property → Review: One-to-Many
   
   - Booking → Payment: One-to-One
+
+# 🚀 Feature Breakdown
+
+This section highlights the main features of the Airbnb Clone project and explains how each feature contributes to the platform’s functionality and user experience.
+
+**1. User Management**
+
+Allows users to register, log in, and manage their profiles. Users can be guests, hosts, or admins, with different permissions and access levels. This feature ensures secure authentication and a personalized experience for all users.
+
+**2. Property Management**
+
+Enables hosts to list, update, and manage properties. Hosts can provide details such as title, location, amenities, and pricing. This feature allows the platform to showcase a variety of listings and maintain accurate property information.
+
+**3. Booking System**
+
+Allows guests to book available properties for specific dates. The system handles reservations, availability checks, and booking confirmations. It ensures smooth and reliable property reservations and helps manage calendar availability for hosts.
+
+**4. Reviews & Ratings**
+
+Enables guests to leave feedback and rate properties after their stay. Hosts and future guests can view reviews to make informed decisions. This feature promotes transparency and helps maintain quality standards across listings.
+
+**5. Payment Processing**
+
+Manages secure transactions between guests and hosts. The system tracks payment status, amounts, and receipts. This feature ensures financial security and streamlines the booking payment process.
+
+**6. Search & Filtering**
+
+Allows users to search for properties based on location, price, dates, and amenities. Provides advanced filtering options to help users find suitable listings quickly. This feature enhances usability and improves the user experience.
+
+**7. Notifications**
+
+Sends email or in-app notifications for booking confirmations, cancellations, and updates. Keeps users informed about important events and actions. This feature improves communication and engagement within the platform.
