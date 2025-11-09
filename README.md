@@ -1,6 +1,6 @@
 # Airbnb Clone Project
 
-# 🧑‍💻 Team Roles
+# Team Roles
 
 This section outlines the key roles involved in the project and their primary responsibilities.
 Each role plays an essential part in ensuring the successful development, deployment, and maintenance of the system.
