@@ -41,7 +41,7 @@ Implements security best practices to protect data and systems from vulnerabilit
 
 Bridges the gap between business needs and technical implementation. Gathers requirements, defines workflows, and helps the team align the final product with user expectations.
 
-# 🧩 Technology Stack
+# Technology Stack
 
 **1. Django**
 
@@ -75,7 +75,7 @@ A CI/CD automation tool that helps automate workflows such as testing, building,
 
 A JavaScript library for building interactive and dynamic user interfaces on the frontend.
 
-# 🧮 Database Design
+# Database Design
 
 This section describes the database structure for the project, including the key entities, their important fields, and the relationships between them.
 
@@ -203,7 +203,7 @@ Key Fields:
   
   - Booking → Payment: One-to-One
 
-# 🚀 Feature Breakdown
+# Feature Breakdown
 
 This section highlights the main features of the Airbnb Clone project and explains how each feature contributes to the platform’s functionality and user experience.
 
@@ -235,7 +235,7 @@ Allows users to search for properties based on location, price, dates, and ameni
 
 Sends email or in-app notifications for booking confirmations, cancellations, and updates. Keeps users informed about important events and actions. This feature improves communication and engagement within the platform.
 
-# 🔒 API Security
+# API Security
 
 This project implements robust security measures to protect user data and ensure safe interactions with the backend.
 
@@ -251,7 +251,7 @@ This project implements robust security measures to protect user data and ensure
 
 Implementing these measures is crucial for safeguarding user information, securing payments, and maintaining trust in the platform.
 
-# ⚙️ CI/CD Pipeline
+# CI/CD Pipeline
 
 Continuous Integration and Continuous Deployment (CI/CD) automate the process of building, testing, and deploying the application. This ensures faster, more reliable releases and reduces the risk of human error.
 
